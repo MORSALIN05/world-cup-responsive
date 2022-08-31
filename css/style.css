@@ -58,21 +58,22 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-column-gap: 20px; */
+    justify-content: center;
 
 }
 
 .single-player-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 15px;
+    grid-column-gap: 15px;
     /* padding: 20px; */
     width: 70%;
+    align-items: center;
 }
 
-/* .players {
-    display: flex;
-    align-items: center;
-} */
+.players img {
+    width: 80%;
+}
 
 /* 3 button link style*/
 #button-shape1 {
