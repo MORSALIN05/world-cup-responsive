@@ -1,0 +1,93 @@
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common styles body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* main styles */
+main {
+    margin: 25px 100px 25px 100px;
+}
+
+/* header styles */
+header {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    background-color: rgb(22, 21, 21);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    padding: 5px 30px;
+    background-color: rgb(206, 39, 39);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.block-button {
+    display: block;
+}
+
+.fa-angle-right .filled {
+    color: rgb(71, 63, 63);
+    font-size: 20px;
+
+}
+
+.transfer-container {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-column-gap: 20px; */
+
+}
+
+.single-player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    /* padding: 20px; */
+    width: 70%;
+}
+
+/* .players {
+    display: flex;
+    align-items: center;
+} */
+
+/* 3 button link style*/
+#button-shape1 {
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+
+.half-width-Tsection-player {
+    width: 70%;
+
+}
+
+.button-block {
+    border: 2px solid;
+    width: 170px;
+    height: 130px;
+}
