@@ -8,12 +8,12 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* main styles */
 main {
-    margin: 25px 100px 25px 100px;
+    margin: 25px 60px 25px 60px;
 }
 
 /* header styles */
@@ -21,7 +21,8 @@ header {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     background-color: rgb(22, 21, 21);
     margin-bottom: 20px;
     color: white;
@@ -41,10 +42,6 @@ header {
     text-decoration: none;
     color: white;
     font-weight: 700;
-}
-
-.block-button {
-    display: block;
 }
 
 .fa-angle-right .filled {
@@ -71,15 +68,43 @@ header {
     align-items: center;
 }
 
+.player {
+    margin-top: 20px;
+    border-radius: 14px;
+    border: 2px solid;
+}
+
 .players img {
     width: 80%;
 }
 
 /* 3 button link style*/
-#button-shape1 {
+.button-shape {
     text-decoration: none;
-    padding: 5px 10px;
+    text-align: center;
 
+    background-color: white;
+
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+.shape1 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.shape2 {
+    text-decoration: none;
+    color: black;
+}
+
+#shape3 {
+    text-decoration: none;
+    background-color: red;
+    color: black;
 }
 
 .half-width-Tsection-player {
@@ -88,7 +113,32 @@ header {
 }
 
 .button-block {
-    border: 2px solid;
-    width: 170px;
-    height: 130px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 210px;
+    height: 180px;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(20, 19, 19);
+    /* border-color: black; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer-shape {
+    border: 1px solid;
+    color: black;
+    margin: 10px 10px 10px 10px;
+}
+
+/* icon area */
+.icon-area {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
