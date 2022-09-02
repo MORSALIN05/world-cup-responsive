@@ -166,21 +166,40 @@ header {
 footer {
     background-color: black;
     color: white;
-    height: 150px;
+    height: 250px;
     text-align: center;
     padding: 80px;
 }
 
-footer>div {
+.footer-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
     align-items: center;
+    justify-content: center;
 }
 
 .line {
     background-color: white;
     height: 2px;
     margin: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
 }
 
 /* Media query */
@@ -221,6 +240,12 @@ footer>div {
         align-items: center;
     }
 
+    footer>div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* Media query for tablet device */
@@ -232,6 +257,24 @@ footer>div {
         grid-column-gap: 15px;
         justify-content: center;
         background-color: aquamarine;
+
+    }
+
+    /* edit button shape */
+    .button-shape {
+        text-decoration: none;
+        text-align: center;
+
+        background-color: white;
+
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 5px 20px;
+    }
+
+    #shape3 {
+        text-decoration: none;
+        background-color: rgb(211, 50, 189);
 
     }
 
