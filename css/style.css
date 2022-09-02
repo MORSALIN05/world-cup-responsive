@@ -131,6 +131,30 @@ header {
     align-items: center;
 }
 
+/* button block for upcomming page */
+
+.button-block-upcomming {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 210px; */
+    height: 180px;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(20, 19, 19);
+    /* border-color: black; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer-container-upcomming {
+    /* display: flex; */
+    display: grid;
+    grid-template-rows: 2, 1fr 3fr;
+    /* grid-column-gap: 20px; */
+    justify-content: center;
+}
+
 .transfer-shape {
     border: 1px solid;
     color: black;
@@ -203,10 +227,32 @@ footer {
 }
 
 /* upcomming page section */
+.grid-flag-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
 .grid-flag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5px;
+    grid-column-gap: 0px;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 13%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+
+}
+
+.text-alignP {
+    text-align: center;
 }
 
 /* Media query */
