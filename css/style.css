@@ -50,6 +50,11 @@ header {
 
 }
 
+/* Transfer container styles */
+/* .player-transfer-padding {
+    padding: 20px;
+} */
+
 .transfer-container {
     /* display: flex; */
     display: grid;
@@ -69,7 +74,7 @@ header {
 }
 
 .player {
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 14px;
     border: 2px solid;
 }
@@ -141,4 +146,22 @@ header {
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    padding: 10px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding: 80px;
+}
+
+footer>div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+
 }
