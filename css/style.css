@@ -234,32 +234,36 @@ footer {
 /* upcomming page section */
 .grid-flag-container {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
-
+    gap: 15px;
     justify-content: center;
     align-items: center;
 
+}
+
+.grid-item {
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .grid-flag {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    border: 1px solid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* padding-left: 13%; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 10px;
 
 }
 
-.grid-text {
-    display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
+.time-info {
     text-align: center;
+}
+
+.team-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .text-alignP {
