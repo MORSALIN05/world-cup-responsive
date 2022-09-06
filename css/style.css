@@ -404,5 +404,16 @@ footer {
         grid-column-gap: 15px;
         /* padding: 20px; */
         align-items: center;
+
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* background-color: black; */
     }
 }
