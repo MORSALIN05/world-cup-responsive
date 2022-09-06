@@ -19,10 +19,7 @@ main {
 /* header styles */
 .header {
     display: flex;
-    /* padding-left: 80px;
-    /* padding-right: 80px;* */
     padding-top: 30px;
-    /* padding-bottom: 40px; */
     background-color: rgb(22, 21, 21);
     margin-bottom: 30px;
     color: white;
@@ -44,8 +41,7 @@ main {
     margin-bottom: -7px;
 }
 
-
-
+/* link button style */
 
 .link-button {
     padding: 5px 30px;
@@ -61,16 +57,11 @@ main {
 
 }
 
-/* Transfer container styles */
-/* .player-transfer-padding {
-    padding: 20px;
-} */
+/* transfer-container for player transfer  */
 
 .transfer-container {
-    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-column-gap: 20px; */
     justify-content: center;
 
 }
@@ -95,6 +86,7 @@ main {
 }
 
 /* 3 button link style*/
+
 .button-shape {
     text-decoration: none;
     text-align: center;
@@ -156,6 +148,7 @@ main {
     align-items: center;
 }
 
+/* styel for transfer-container-upcomming */
 .transfer-container-upcomming {
     display: flex;
     gap: 2rem;
@@ -274,7 +267,6 @@ footer {
 /* Media query */
 
 /* Media query for mobile device */
-/* Media query for mobile device */
 @media only screen and (max-width: 688px) {
     .header {
         flex-direction: column;
@@ -344,6 +336,8 @@ footer {
 }
 
 /* Media query for tablet device */
+
+
 @media (min-width:689px) and (max-width:992px) {
     .transfer-container {
         /* display: flex; */
